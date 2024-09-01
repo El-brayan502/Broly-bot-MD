@@ -1,4 +1,4 @@
-console.log('✅ Iniciando...')
+console.log('👻 Iniciando...')
 
 import { join, dirname } from 'path'
 import { createRequire } from 'module';
@@ -24,12 +24,12 @@ const rl = createInterface(process.stdin, process.stdout)
 const app = express()
 const port = process.env.PORT || 8080;
 
-say('BrolyBot-MD', {
+say('Bot-broly', {
   font: 'pallet',
   align: 'center',
   gradient: ['red', 'magenta']
 })
-say(`BrolyBot-MD El-brayan502 x Eliasar YT`, {
+say(`the Broly By brayan Ig: @brayanff`, {
   font: 'console',
   align: 'center',
   gradient: ['cyan', 'magenta']
