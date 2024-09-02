@@ -25,7 +25,7 @@ global.author = '𝗕𝗿𝗮𝘆𝗮𝗻𝗖𝗵𝗮𝗽𝗶𝗻'
 //--info FG
 global.botName = '𝑩𝒓𝒐𝒍𝒚'
 global.fgig = 'https://instagram.com/brayanff502' 
-global.fgsc = 'https://github.com/FG98F/dylux-fg' 
+global.fgsc = 'https://github.com/El-brayan502/Broly-bot-MD' 
 global.fgyt = 'https://youtube.com/Brayancrazzy'
 global.fgpyp = 'https://paypal.me/brayancrazzy'
 global.fglog = 'https://telegra.ph/file/40c5d1ff195dbc0ac3409.jpg' 
