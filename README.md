@@ -3,7 +3,7 @@
 <img src="https://komarev.com/ghpvc/?username=FG98F&color=brightgreen" />
 <p/>
 <p align="center">
-<a href="https://github.com/El-brayan502"><img title="Author" src="https://img.shields.io/badge/Broly-Bot-MDBot-black?style=for-the-badge&logo=whatsApp"></a>
+<a href="https://github.com/El-brayan502"><img title="Broly" src="https://img.shields.io/badge/Broly-Bot-MDBot-black?style=for-the-badge&logo=whatsApp"></a>
 <p/>
 <p align="center">
 <a href="https://github.com/El-brayan502?tab=followers"><img title="Followers" src="https://img.shields.io/github/followers/El-brayan502?label=Followers&style=social"></a>
