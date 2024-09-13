@@ -1,4 +1,4 @@
-console.log('🐉 Iniciando...')
+console.log('INICIANDO BROLY-BOT')
 
 import { join, dirname } from 'path'
 import { createRequire } from 'module';
