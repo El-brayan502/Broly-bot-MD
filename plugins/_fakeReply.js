@@ -1,7 +1,7 @@
 
 import fetch from 'node-fetch';
 export async function before(m, { conn }) {
-   let pp = await this.profilePictureUrl(m.sender, 'image').catch(_ => 'https://telegra.ph/file/0836b8dde434d2a46735c.jpg');
+   let pp = await this.profilePictureUrl(m.sender, 'image').catch(_ => 'https://qu.ax/lEAM.jpg');
 
   let nam = "𝄞𝑻𝑯𝑬 𝑩𝑹𝑶𝑳𝒀-𝑩𝑶𝑻᭄"
   
