@@ -19,7 +19,7 @@
 ***
 ### Información
 - Cambie número de dueño en [Config](https://github.com/El-brayan502/Broly-bot-MD/blob/main/config.js#L6)
-- Puede cambiar a la última versión de baileys editando el package.json [esta sección](https://github.com/FG98F/senna-bot/blob/main/package.json#L42)
+- Puede cambiar a la última versión de baileys editando el package.json [esta sección](https://github.com/El-brayan502/Broly-bot-MD/blob/main/package.json#L42)
 
 
 ### CONTACTOS
