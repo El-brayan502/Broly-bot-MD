@@ -106,7 +106,7 @@ const question = (texto) => new Promise((resolver) => rl.question(texto, resolve
 let opcion
 if (!fs.existsSync(`./${authFile}/creds.json`) && !methodCodeQR && !methodCode) {
 while (true) {
-opcion = await question("\n\n✳️ Ingrese el metodo de conexion\n🔺 1 : por QR\n🔺 2 : por CÓDIGO\n\n\n")
+opcion = await question("\n\n🐉 Ingrese el metodo de conexion\n🔺 1 : por QR\n🔺 2 : por CÓDIGO\n\n\n")
 if (opcion === '1' || opcion === '2') {
 break
 } else {
@@ -153,7 +153,7 @@ if (opcion === '2' || methodCode) {
   process.exit(0)
   }} else {
   while (true) {
-  addNumber = await question(chalk.bgBlack(chalk.bold.greenBright("\n\n✳️ Escriba su numero\n\nEjemplo: 5491168xxxx\n\n\n\n")))
+  addNumber = await question(chalk.bgBlack(chalk.bold.greenBright("\n\n✳️ Escriba su numero\n\nEjemplo: 5023145xxxx\n\n\n\n")))
   addNumber = addNumber.replace(/[^0-9]/g, '')
   
   if (addNumber.match(/^\d+$/) && Object.keys(PHONENUMBER_MCC).some(v => addNumber.startsWith(v))) {
@@ -167,7 +167,7 @@ if (opcion === '2' || methodCode) {
   setTimeout(async () => {
   let codeBot = await conn.requestPairingCode(addNumber)
   codeBot = codeBot?.match(/.{1,4}/g)?.join("-") || codeBot
-  console.log(chalk.bold.red(`\n\n🟢   Su Código es:  ${codeBot}\n\n`)) 
+  console.log(chalk.bold.red(`\n\n🟢   CÓDIGO DE CONEXIÓN:  ${codeBot}\n\n`)) 
   rl.close()
   }, 3000)
   }}
