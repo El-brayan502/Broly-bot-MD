@@ -1,9 +1,4 @@
-        <img src= "https://telegra.ph/file/89fa6a3c8e9cedda6f5ca.jpg">
-    </p>
-    <p align="center">
-        <a href="#"><img title="simple-whatsapp-bot" src="https://img.shields.io/badge/-SIMPLE--WHATSAPP--BOT-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
-    </p>
-    <p>
+
 
 <p align="center">
 <a href="https://wa.me/50231458537"><img title="Author" src="https://img.shields.io/badge/BrolyBot-black?style=for-the-badge&logo=whatsApp"></a>
