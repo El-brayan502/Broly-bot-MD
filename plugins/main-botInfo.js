@@ -53,11 +53,8 @@ let infobt = `
   *Brayan y muñeca*
 ▢ Instagram :
   • ${fgig}
-▢ Telegram : 
-  • t.me/fgsupp_bot (FG) 
-  • t.me/fg98ff (canal)
-  • t.me/fgawgp (grupo)
-▢ YouTube : 
+
+▢ Tiktok : 
   • https://tiktok.com/Vegeta73
   
  *≡ HELPERS*
