@@ -28,7 +28,6 @@
 
  <a href="http://www.instagram.com/brayanff502" target="blank"><img src="https://img.shields.io/badge/Instagram-30302f?style=flat&logo=instagram" /></a>
 <a href="https://m.facebook.com/soybrayanff" target="blank"><img src="https://img.shields.io/badge/Facebook-30302f?style=flat&logo=facebook" /></a>
-https://qu.ax/cBzx.jpg
 </p> 
 
 ### API REST
