@@ -1,4 +1,4 @@
-[![Picsart-24-06-07-05-14-22-511.jpg](https://qu.ax/cBzx.jpg.cc/W3rVdNL0/Picsart-24-06-07-05-14-22-511.jpg)](https://qu.ax/cBzx.jpg)
+https://qu.ax/cBzx.jpg
 
 <p align="center">
 <a href="https://wa.me/50231458537"><img title="Author" src="https://img.shields.io/badge/BrolyBot-black?style=for-the-badge&logo=whatsApp"></a>
