@@ -36,7 +36,7 @@ global.id_canal = '120363312092804854@newsletter' //-ID de canal de WhatsApp
 global.fgcanal = 'https://whatsapp.com/channel/0029VajUPbECxoB0cYovo60W'
 global.bgp = 'https://chat.whatsapp.com/LQalZQmmYuqAdvsxyHUjno'
 global.bgp2 = 'https://chat.whatsapp.com/LQalZQmmYuqAdvsxyHUjno'
-global.bgp3 = 'https://chat.whatsapp.com/LQalZQmmYuqAdvsxyHUjno' //--GP NSFW
+global.bgp3 = 'https://chat.whatsapp.com/BoaRPJlKLnN4Ay3ebSTaDi' //--GP NSFW
 
 global.wait = '⌛ _Cargando..._\n*▬▬▬▭*'
 global.rwait = '⌛'
