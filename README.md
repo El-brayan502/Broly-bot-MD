@@ -36,7 +36,7 @@
 ### Ejemplo 
 En caso de duda, antes de instalar KenjiBot-MD, pruebe el bot aquí
 
-[![WhatsApp](https://img.shields.io/badge/DyLux-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://instabio.cc/fg98ff) 
+[![WhatsApp](https://img.shields.io/badge/Kenji-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://instabio.cc/fg98ff) 
 
 
 Multi-idioma para cada usuario, lo que significa que el usuario puede elegir el idioma que quiere usar
