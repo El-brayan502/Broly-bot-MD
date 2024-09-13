@@ -3,7 +3,7 @@ import fetch from 'node-fetch';
 export async function before(m, { conn }) {
    let pp = await this.profilePictureUrl(m.sender, 'image').catch(_ => 'https://qu.ax/lEAM.jpg');
 
-  let nam = "𝄞𝑻𝑯𝑬 𝑩𝑹𝑶𝑳𝒀-𝑩𝑶𝑻᭄"
+  let nam = "𝑩𝒓𝒐𝒍𝒚𝑩𝒐𝒕-𝑴𝑫 [𝑪𝒉𝒂𝒏𝒆𝒍]"
   
   // Respuesta con enlace de WhatsApp
   global.rpl = {
@@ -40,7 +40,7 @@ export async function before(m, { conn }) {
         mediaType: 'VIDEO',
         description: 'canal del grupo',
         title: packname,
-        body: 'Canal de 𝄞𝑻𝑯𝑬 𝑩𝑹𝑶𝑳𝒀-𝑩𝑶𝑻᭄',
+        body: 'Canal de 𝑩𝒓𝒐𝒍𝒚𝑩𝒐𝒕-𝑴𝑫',
         thumbnailUrl: pp,
         sourceUrl: fgcanal
       }
