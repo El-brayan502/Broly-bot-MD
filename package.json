@@ -1,5 +1,5 @@
 { 
-    "name": "senna-bot",
+    "name": "BrolyBot-MD",
     "version": "3.0.0",
     "description": "Customizable WhatsApp Bot",
     "main": "index.js",
@@ -26,16 +26,16 @@
         "senna-bot",
         "baileys-md"
     ],
-    "homepage": "https://github.com/FG98F/senna-bot",
+    "homepage": "https://github.com/El-brayan502/Broly-bot-MD",
     "author": {
-        "name": "FG98"
+        "name": "Brayan"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/FG98F/senna-bot.git"
+        "url": "git+https://github.com/El-brayan502/Broly-bot-MD.git"
     },
     "bugs": {
-        "url": "https://github.com/FG98F/senna-bot/issues"
+        "url": "https://github.com/El-brayan502/Broly-bot-MD/issues"
     },
     "license": "GPL-3.0-or-later",
     "dependencies": {
