@@ -29,28 +29,27 @@ let tags = {
 }
 const defaultMenu = {
   before: `
-◈ ━━━━━ *𝑻𝑯𝑬 𝑩𝑹𝑶𝑳𝒀-𝑩𝑶𝑻  ┃ ᴮᴼᵀ* ━━━━━ ◈
- 
-🇬🇹 𝐇𝐎𝐋𝐀! *%name*
-👥 𝐔𝐒𝐔𝐀𝐈𝐎𝐒 : %totalreg
-🛸 𝐓𝐈𝐄𝐌𝐏𝐎 𝐀𝐂𝐓𝐈𝐕𝐎: %muptime
-%sbot
-
-✿ ADD
-• https://instagram.com/brayanff502
-
-• https://BrayanFF.xyz
-
-────────────
+╭━━━〔 𝑩𝒓𝒐𝒍𝒚𝑩𝒐𝒕-𝑴𝑫 〕━━━◉
+┃╭──────────────
+┃┃ 𝙃𝙊𝙇𝘼! *%name*
+┃┃ 𝙐𝙎𝙐𝘼𝙍𝙄𝙊𝙎 : %totalreg
+┃┃ 𝙏𝙄𝙀𝙈𝙋𝙊 𝘼𝘾𝙏𝙄𝙑𝙊: %muptime %sbot
+┃┃
+┃┃ ADD
+┃┃ tiktok.com/@bot_broly_777
+┃┃ 𝑻𝑯𝑬-𝑩𝑹𝑶𝑳𝒀-𝑩𝑶𝑻 𝑩𝒚 𝑩𝒓𝒂𝒚𝒂𝒏𝒀𝑻
+┃╰──────────────
+╰━━━━━━━━━━━━━━◉
 %readmore
-  ≡ *𝑳𝑰𝑺𝑻𝑨 𝑫𝑬 𝑴𝑬𝑵𝑼𝑺*
-
-✦ = Premium
-✦ = Diamantes
+╔═══════ஜ۩۞۩ஜ═══════╗
+┃  ≡ *𝑳𝑰𝑺𝑻𝑨 𝑫𝑬 𝑴𝑬𝑵𝑼𝑺*
+╚═══════ஜ۩۞۩ஜ═══════╝
+❥ 𝙋𝙧𝙚𝙢𝙞𝙪𝙢
+❥ 𝘿𝙞𝙖𝙢𝙖𝙣𝙩𝙚𝙨
 `.trimStart(),
-  header: '┌─⊷ *%category*',
-  body: '❒ %cmd %isdiamond %isPremium',
-  footer: '└───────────\n',
+  header: '╔▬ִ▭࣪▬ִ *%category* ▬ִ▭࣪▬ִ',
+  body: '✯ࣲ፝֟͜͡ʅ %cmd %isdiamond %isPremium',
+  footer: '╚▭࣪▬ִ▭࣪▬ִ▭࣪▬ִ▭࣪▬ִ▭࣪▬ִ▭࣪▬▭╝\n',
   after: `
 `,
 }
@@ -115,7 +114,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
     let header = conn.menu.header || defaultMenu.header
     let body = conn.menu.body || defaultMenu.body
     let footer = conn.menu.footer || defaultMenu.footer
-    let after = conn.menu.after || (conn.user.jid == conn.user.jid ? '' : `⭐ Powered by FG98 https://wa.me/${conn.user.jid.split`@`[0]}`) + defaultMenu.after
+    let after = conn.menu.after || (conn.user.jid == conn.user.jid ? '' : `⭐ Powered by BrayanYT https://wa.me/${conn.user.jid.split`@`[0]}`) + defaultMenu.after
     let _text = [
       before,
       ...Object.keys(tags).map(tag => {
@@ -123,8 +122,8 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
           ...help.filter(menu => menu.tags && menu.tags.includes(tag) && menu.help).map(menu => {
             return menu.help.map(help => {
               return body.replace(/%cmd/g, menu.prefix ? help : '%p' + help)
-                .replace(/%isdiamond/g, menu.diamond ? '(ⓓ)' : '')
-                .replace(/%isPremium/g, menu.premium ? '(Ⓟ)' : '')
+                .replace(/%isdiamond/g, menu.diamond ? '(Ⓑ)' : '')
+                .replace(/%isPremium/g, menu.premium ? '(Ⓑ)' : '')
                 .trim()
             }).join('\n')
           }),
@@ -138,7 +137,8 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
       '%': '%',
       p: _p, uptime, muptime,
       me: conn.getName(conn.user.jid),
-      sbot: (conn.user.jid == global.conn.user.jid ? '' : `\n▢ ✨ *Sub-Bot de:*\nwa.me/${global.conn.user.jid.split`@`[0]}`), 
+      sbot: (conn.user.jid == global.conn.user.jid ? '' : `\:
+┃┃wa.me/${global.conn.user.jid.split`@`[0]}`), 
       npmname: _package.name,
       npmdesc: _package.description,
       version: _package.version,
@@ -152,7 +152,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
     
-    let pp = 'https://telegra.ph/file/a2efd2f9bf6531efdc1ac.mp4'
+    let pp = 'https://qu.ax/SsDS.jpg'
 
     /*conn.sendButton(m.chat, text.trim(), `▢ DyLux  ┃ ᴮᴼᵀ\n${mssg.ig}`, pp, [
       ['ꨄ︎ Apoyar', `${_p}donate`],
