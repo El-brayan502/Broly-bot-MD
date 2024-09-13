@@ -33,10 +33,10 @@ global.fglog = 'https://i.ibb.co/1zdz2j3/logo.jpgs'
 
 //--- Grupos WA
 global.id_canal = '120363312092804854@newsletter' //-ID de canal de WhatsApp
-global.fgcanal = 'https://whatsapp.com/channel/0029VaCeuZd6mYPQiWqxXj1F'
-global.bgp = 'https://chat.whatsapp.com/BESBo5xjvIZE4YVvth6Yzr'
-global.bgp2 = 'https://chat.whatsapp.com/I7bvd8XCAOUHjgkHteqFC7'
-global.bgp3 = 'https://chat.whatsapp.com/F0JTTyZ3hsoL7OlU8TEpuH' //--GP NSFW
+global.fgcanal = 'https://whatsapp.com/channel/0029VajUPbECxoB0cYovo60W'
+global.bgp = 'https://chat.whatsapp.com/LQalZQmmYuqAdvsxyHUjno'
+global.bgp2 = 'https://chat.whatsapp.com/LQalZQmmYuqAdvsxyHUjno'
+global.bgp3 = 'https://chat.whatsapp.com/LQalZQmmYuqAdvsxyHUjno' //--GP NSFW
 
 global.wait = '⌛ _Cargando..._\n*▬▬▬▭*'
 global.rwait = '⌛'
