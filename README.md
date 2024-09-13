@@ -1,17 +1,8 @@
- 
-<p align="center"> 
-<img src="https://komarev.com/ghpvc/?username=FG98F&color=brightgreen" />
-<p/>
-<p align="center">
-<a href="https://github.com/El-brayan502"><img title="BrolyBot-MD" src="https://img.shields.io/badge/Broly-Bot-MDBot-black?style=for-the-badge&logo=whatsApp"></a>
-<p/>
-<p align="center">
-<a href="https://github.com/El-brayan502?tab=followers"><img title="Followers" src="https://img.shields.io/github/followers/El-brayan502?label=Followers&style=social"></a>
-<a href="https://github.com/El-brayan502/Broly-bot-MD/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/El-brayan502/Broly-bot-MD?&style=social"></a>
-<a href="https://github.com/El-brayan502/Broly-bot-MD/network/members"><img title="Fork" src="https://img.shields.io/github/forks/El-brayan502/Broly-bot-MD?style=social"></a>
-<a href="https://github.com/El-brayan502/Broly-bot-MD/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/El-brayan502/Broly-bot-MD?label=Watching&style=social"></a>
-</p>
+[![Picsart-24-06-07-05-14-22-511.jpg](https://i.postimg.cc/W3rVdNL0/Picsart-24-06-07-05-14-22-511.jpg)](https://postimg.cc/HcpRKCLL)
 
+<p align="center">
+<a href="https://wa.me/51929838430"><img title="Author" src="https://img.shields.io/badge/NaufraZapp-black?style=for-the-badge&logo=whatsApp"></a>
+<p/>
 
 
 <h3 align="center">WHATSAPP BOT</h3>
