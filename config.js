@@ -25,14 +25,14 @@ global.author = '𝑩𝒓𝒂𝒚𝒂𝒏𝒀𝒕'
 
 //--info FG
 global.botName = '𝑩𝒓𝒐𝒍𝒚𝑩𝒐𝒕-𝑴𝑫'
-global.fgig = 'https://instagram.com/fg98_ff' 
+global.fgig = 'https://instagram.com/brayanff502' 
 global.fgsc = 'https://github.com/FG98F/dylux-fg' 
-global.fgyt = 'https://youtube.com/fg98f'
-global.fgpyp = 'https://paypal.me/fg98f'
+global.fgyt = 'https://youtube.com/Naufrapo'
+global.fgpyp = 'https://paypal.me/broly'
 global.fglog = 'https://i.ibb.co/1zdz2j3/logo.jpgs' 
 
 //--- Grupos WA
-global.id_canal = '120363177092661333@newsletter' //-ID de canal de WhatsApp
+global.id_canal = '120363312092804854@newsletter' //-ID de canal de WhatsApp
 global.fgcanal = 'https://whatsapp.com/channel/0029VaCeuZd6mYPQiWqxXj1F'
 global.bgp = 'https://chat.whatsapp.com/BESBo5xjvIZE4YVvth6Yzr'
 global.bgp2 = 'https://chat.whatsapp.com/I7bvd8XCAOUHjgkHteqFC7'
