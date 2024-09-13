@@ -2,7 +2,7 @@
 
 
 <p align="center">
-<a href="#"><img title="ansí-BOT" src="https://qu.ax/cBzx.jpg" alt="ansí-BOT" style="width:100%; max-width:400px;"></a>
+<a href="#"><img title="BrolyBot-MD" src="https://qu.ax/cBzx.jpg" alt="ansí-BOT" style="width:100%; max-width:400px;"></a>
 </p>
 <p align="center">
 <img src="http://readme-typing-svg.herokuapp.com?font=mono&size=14&duration=3000&color=0000FF&center=true&vCenter=true&lines=La+aventura+apenas+empieza." height="40px">
