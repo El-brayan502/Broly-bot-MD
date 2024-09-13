@@ -1,3 +1,13 @@
+> <b> Versión 1.2 </b>
+
+
+<p align="center">
+<a href="#"><img title="ansí-BOT" src="https://qu.ax/XutR.jpg" alt="ansí-BOT" style="width:100%; max-width:400px;"></a>
+</p>
+<p align="center">
+<img src="http://readme-typing-svg.herokuapp.com?font=mono&size=14&duration=3000&color=0000FF&center=true&vCenter=true&lines=La+aventura+apenas+empieza." height="40px">
+</p>
+
 
 <p align="center">
 <a href="https://wa.me/50231458537"><img title="Author" src="https://img.shields.io/badge/BrolyBot-black?style=for-the-badge&logo=whatsApp"></a>
