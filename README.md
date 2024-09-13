@@ -1,7 +1,7 @@
 [![Picsart-24-06-07-05-14-22-511.jpg](https://i.postimg.cc/W3rVdNL0/Picsart-24-06-07-05-14-22-511.jpg)](https://postimg.cc/HcpRKCLL)
 
 <p align="center">
-<a href="https://wa.me/50231458537"><img title="Author" src="https://img.shields.io/badge/NaufraZapp-black?style=for-the-badge&logo=whatsApp"></a>
+<a href="https://wa.me/50231458537"><img title="Author" src="https://img.shields.io/badge/BrolyBot-black?style=for-the-badge&logo=whatsApp"></a>
 <p/>
 
 
