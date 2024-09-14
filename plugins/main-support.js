@@ -19,7 +19,7 @@ ${bgp3}
 
 ◈ ━━━━━━━━━━━━━━━━━━━━ ◈
 ▢ Todos los Grupos
- https://instabio.cc/fg98ff
+ https://atom.bio/brolybot-md
 
 ▢ *Telegram*
 • https://t.me/fgawgp
