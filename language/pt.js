@@ -27,7 +27,7 @@ const translations = {
     recon: 'Conexão perdida...',
     sesClose: 'A conexão foi encerrada. Você precisará se reconectar manualmente enviando o *ID*',
     connet: 'Conectado com sucesso',
-    connID: '*Conectado com sucesso!*\n\nEm alguns segundos, enviaremos o *Id* que você deve usar para se reconectar\n\n*NOTA:* Saia do grupo *DyLux  ┃ ᴮᴼᵀ*\nGuarde este link para que você possa entrar novamente depois\nhttps://instabio.cc/fg98ff',
+    connID: '*Conectado com sucesso!*\n\nEm alguns segundos, enviaremos o *Id* que você deve usar para se reconectar\n\n*NOTA:* Saia do grupo *Broly  ┃ ᴮᴼᵀ*\nGuarde este link para que você possa entrar novamente depois\nhttps://atom.bio/brolybot-md',
     connMsg: 'Da próxima vez que você se conectar, envie a seguinte mensagem para fazer login sem escanear outro código *QR*',
     botlist: 'Lista de Sub Bots Ativos',
     newcode: (usedPrefix) => `Ótimo! Agora você pode usar *${usedPrefix}botclone* para solicitar um novo código QR`,
