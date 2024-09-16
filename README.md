@@ -85,7 +85,6 @@ Instale el bot para que este activo 24/7
 
 ---------
 * Create una cuenta  [`aquí`](https://dash.boxmineworld.com/register?ref=Mb0BN5ny)
-* Tutorial [`Click Aquí`](https://youtu.be/Vzk_X45bDIw?si=1UNQWa2B9w-xyBSm)
 
 * Dashboard [`Click aquí`](https://dash.boxmineworld.com)
 * Panel [`Click aquí`](https://panel.boxmineworld.com/)
