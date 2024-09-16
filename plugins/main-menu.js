@@ -6,7 +6,6 @@ import { xpRange } from '../lib/levelling.js'
 //import { plugins } from '../lib/plugins.js'
 let tags = {
   'main': 'ACERCA DE',
-  'bebot': 'SUB BOTS',
   'game': 'JUEGOS',
   'econ': 'NIVEL & ECONOMIA',
   'rg': 'REGISTRO',
@@ -22,30 +21,33 @@ let tags = {
   'tools': 'TOOLS',
   'fun': 'FUN',
   'cmd': 'DATABASE',
-  'nsfw': 'NSFW +18',
-  'ansfw': 'NSFW ANIME', 
+  'nsfw': 'NSFW +18', 
+  'ansfw': 'NSFW ANIME',
   'owner': 'OWNER', 
   'advanced': 'AVANZADO',
 }
 const defaultMenu = {
   before: `
-╭━━━〔 𝑩𝒓𝒐𝒍𝒚𝑩𝒐𝒕-𝑴𝑫 〕━━━◉
-┃╭──────────────
-┃┃ 𝙃𝙊𝙇𝘼! *%name*
-┃┃ 𝙐𝙎𝙐𝘼𝙍𝙄𝙊𝙎 : %totalreg
-┃┃ 𝙏𝙄𝙀𝙈𝙋𝙊 𝘼𝘾𝙏𝙄𝙑𝙊: %muptime %sbot
+╭━━━━━〔 𝗕𝗿𝗼𝗹𝘆𝗕𝗼𝘁-𝗠𝗗 〕━━━◉
+┃╭───────────────────
+┃┃ ❒ 𝙃𝙊𝙇𝘼 *%name*
+┃┃ ❒ 𝙉𝙄𝙑𝙀𝙇 : *%level* 
+┃┃ ❒ 𝙐𝙎𝙐𝘼𝙍𝙄𝙊𝙎 : %totalreg
+┃┃ ❒ 𝙏𝙄𝙀𝙈𝙊𝙊 𝘼𝘾𝙏𝙄𝙑𝙊 : %muptime
 ┃┃
-┃┃ ADD
-┃┃ tiktok.com/@bot_broly_777
-┃┃ 𝑻𝑯𝑬-𝑩𝑹𝑶𝑳𝒀-𝑩𝑶𝑻 𝑩𝒚 𝑩𝒓𝒂𝒚𝒂𝒏𝒀𝑻
-┃╰──────────────
-╰━━━━━━━━━━━━━━◉
+┃┃ ❒ *𝘾𝙍𝙀𝘼𝘿𝙊𝙍 𝘿𝙀 𝘽𝙍𝙊𝙇𝙔*
+┃┃ ❒ 𝐁𝐫𝐚𝐲𝐚𝐧𝐘𝐓 +50231458537
+┃┃ ❒ *𝙂𝙍𝙐𝙋𝙊𝙎*
+┃┃ ❒ https://atom.bio/brolybot-md
+┃╰────────────────────
+╰━━━━━━━━━━━━━━━━━━━━━◉
 %readmore
+ 𝐏𝐑𝐄𝐈𝐌𝐈𝐍
+ 𝐃𝐈𝐀𝐌𝐀𝐓𝐄𝐒
+-----  -----  -----  -----  -----
 ╔═══════ஜ۩۞۩ஜ═══════╗
 ┃  ≡ *𝑳𝑰𝑺𝑻𝑨 𝑫𝑬 𝑴𝑬𝑵𝑼𝑺*
 ╚═══════ஜ۩۞۩ஜ═══════╝
-❥ 𝙋𝙧𝙚𝙢𝙞𝙪𝙢
-❥ 𝘿𝙞𝙖𝙢𝙖𝙣𝙩𝙚𝙨
 `.trimStart(),
   header: '╔▬ִ▭࣪▬ִ *%category* ▬ִ▭࣪▬ִ',
   body: '✯ࣲ፝֟͜͡ʅ %cmd %isdiamond %isPremium',
@@ -114,7 +116,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
     let header = conn.menu.header || defaultMenu.header
     let body = conn.menu.body || defaultMenu.body
     let footer = conn.menu.footer || defaultMenu.footer
-    let after = conn.menu.after || (conn.user.jid == conn.user.jid ? '' : `⭐ Powered by BrayanYT https://wa.me/${conn.user.jid.split`@`[0]}`) + defaultMenu.after
+    let after = conn.menu.after || (conn.user.jid == conn.user.jid ? '' : `Powered by https://wa.me/${conn.user.jid.split`@`[0]}`) + defaultMenu.after
     let _text = [
       before,
       ...Object.keys(tags).map(tag => {
@@ -122,8 +124,8 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
           ...help.filter(menu => menu.tags && menu.tags.includes(tag) && menu.help).map(menu => {
             return menu.help.map(help => {
               return body.replace(/%cmd/g, menu.prefix ? help : '%p' + help)
-                .replace(/%isdiamond/g, menu.diamond ? '(Ⓑ)' : '')
-                .replace(/%isPremium/g, menu.premium ? '(Ⓑ)' : '')
+                .replace(/%isdiamond/g, menu.diamond ? '(ⓓ)' : '')
+                .replace(/%isPremium/g, menu.premium ? '(Ⓟ)' : '')
                 .trim()
             }).join('\n')
           }),
@@ -137,8 +139,6 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
       '%': '%',
       p: _p, uptime, muptime,
       me: conn.getName(conn.user.jid),
-      sbot: (conn.user.jid == global.conn.user.jid ? '' : `\:
-┃┃wa.me/${global.conn.user.jid.split`@`[0]}`), 
       npmname: _package.name,
       npmdesc: _package.description,
       version: _package.version,
@@ -151,27 +151,29 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
-    
+
     let pp = 'https://i.ibb.co/pRBw798/file.jpg'
 
-    /*conn.sendButton(m.chat, text.trim(), `▢ DyLux  ┃ ᴮᴼᵀ\n${mssg.ig}`, pp, [
+    conn.sendFile(m.chat, pp, 'menu.jpg', text.trim(), m, null, rpl)
+    /*conn.sendButton(m.chat, text.trim(), '▢ DyLux  ┃ ᴮᴼᵀ\n▢ Sígueme en Instagram\nhttps://www.instagram.com/fg98_ff', pp, [
       ['ꨄ︎ Apoyar', `${_p}donate`],
       ['⏍ Info', `${_p}botinfo`],
       ['⌬ Grupos', `${_p}gpdylux`]
-    ], m, rpl)*/
-    conn.sendFile(m.chat, pp, 'menu.jpg', text.trim(), m, null, rcanal)
-  
+    ],m, rpl)*/
+
     m.react('🐉') 
-    
+
   } catch (e) {
     conn.reply(m.chat, '❎ Lo sentimos, el menú tiene un error', m)
     throw e
   }
 }
-//handler.help = ['help']
-//handler.tags = ['main']
-handler.command = ['menu', 'help', 'allmenu'] 
+handler.help = ['help']
+handler.tags = ['main']
+handler.command = ['menu', 'help', 'menú'] 
 handler.register = false
+
+handler.exp = 3
 
 export default handler
 
