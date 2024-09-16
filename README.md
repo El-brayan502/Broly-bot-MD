@@ -10,7 +10,7 @@
 
 
 <p align="center">
-<a href="https://wa.me/50231458537"><img title="Author" src="https://img.shields.io/badge/BrolyBot-black?style=for-the-badge&logo=whatsApp"></a>
+<a href="https://wa.me/50231458537"><img title="BRAYNYT" src="https://img.shields.io/badge/BrolyBot-black?style=for-the-badge&logo=whatsApp"></a>
 <p/>
 
 
