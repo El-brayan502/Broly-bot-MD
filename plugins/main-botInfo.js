@@ -42,7 +42,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
   let speed = neww - old
   
 let infobt = `
-≡ *INFO BOT*
+≡ *𝐈𝐍𝐅𝐎 𝐁𝐑𝐎𝐋𝐘*
   
 *ESTADO*
 ▢ ${mssg.gp}s: *${groupsIn.length}*
@@ -59,7 +59,7 @@ let infobt = `
   
  *≡ HELPERS*
   *BRAYANYT*
-▢ WhatsApp : wa.me/50231458537`
+❒ WhatsApp : wa.me/50231458537`
 
 /*conn.sendButton(m.chat, infobt, mssg.ig, null, [
   ['ꨄ︎ Apoyar', `${usedPrefix}donate`],
