@@ -50,12 +50,12 @@ let infobt = `
 ▢ Total Chats: *${chats.length}*
 
 *≡ OWNERS*
-  *Brayan y muñeca*
+  *Brayan*
 ▢ Instagram :
   • ${fgig}
 
-▢ Tiktok : 
-  • https://tiktok.com/Vegeta73
+▢ Grupos : 
+  • https://atom.bio/brolybot-md
   
  *≡ HELPERS*
   *BRAYANYT*
