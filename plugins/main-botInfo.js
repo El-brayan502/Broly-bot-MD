@@ -45,16 +45,16 @@ let infobt = `
 ≡ *𝐈𝐍𝐅𝐎 𝐁𝐑𝐎𝐋𝐘*
   
 *ESTADO*
-▢ ${mssg.gp}s: *${groupsIn.length}*
-▢ Chats: *${chats.length - groupsIn.length}*
-▢ Total Chats: *${chats.length}*
+❒ ${mssg.gp}s: *${groupsIn.length}*
+❒ Chats: *${chats.length - groupsIn.length}*
+❒ Total Chats: *${chats.length}*
 
 *≡ OWNERS*
   *Brayan*
-▢ Instagram :
+❒ Instagram :
   • ${fgig}
 
-▢ Grupos : 
+❒ Grupos : 
   • https://atom.bio/brolybot-md
   
  *≡ HELPERS*
