@@ -60,7 +60,7 @@ Multi-idioma para cada usuario, lo que significa que el usuario puede elegir el 
 | **IMAGEMAGICK** | [click](https://github.com/DuckyTeam/heroku-buildpack-imagemagick) |
 
 
-<a href="https://github.com/AngelPeruFachero"><img src="http://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=B1F733&width=435&lines=Broly-bot;Disfruta+del+bot.+%E2%9A%A1" height="90px"></a> 
+<a href="https://github.com/AngelPeruFachero"><img src="http://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=B1F733&width=435&lines=instalación por;termux.+%E2%9A%A1" height="90px"></a> 
 1. 
 ```sh
 $ pkg upgrade -y && pkg update -y
