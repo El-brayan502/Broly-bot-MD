@@ -84,7 +84,7 @@ $ npm start
 Instale el bot para que este activo 24/7
 
 ---------
-* Create una cuenta  [`aquí`](https://dash.boxmineworld.com/register?ref=Mb0BN5ny)
+* Create una cuenta  [`aquí`](https://dash.boxmineworld.com/register?ref=brolyCoims)
 
 * Dashboard [`Click aquí`](https://dash.boxmineworld.com)
 * Panel [`Click aquí`](https://panel.boxmineworld.com/)
