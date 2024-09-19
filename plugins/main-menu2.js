@@ -17,6 +17,8 @@ let m2 = `
 ┃┃ un Pato
 ┃┃ ara ara
 ┃┃ Bueno master
+┃┃ Calla Fan de bts
+┃┃ Tengo los calzones
 ┃╰──────────────
 ╰━━━━━━━━━━━━━━◉
 `
