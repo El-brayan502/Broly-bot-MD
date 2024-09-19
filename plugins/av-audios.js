@@ -19,5 +19,12 @@ let audioMsg = {
   'buenas tardes': 'https://b.top4top.io/m_2826v2zg51.mp3',
   'buenas noches': 'https://i.top4top.io/m_2826o8rfj1.mp3',
   'sad': 'https://h.top4top.io/m_2826mcim21.mp3',
-  '@5491168352204|@59172945992': 'https://l.top4top.io/m_2492i4mdu1.mp3'
+    'Motivación': 'https://qu.ax/MXnK.mp3',
+    'Uwu': 'https://qu.ax/lOCR.mp3',
+    'fiesta viernes': 'https://qu.ax/wqXs.mp3',
+    'un Pato': 'https://qu.ax/pmOm.mp3',
+    'Estoy triste': 'https://qu.ax/QSyP.mp3',
+    'Bueno master': 'https://qu.ax/xynz.mp3',
+    'ara ara': 'https://qu.ax/PPgt.mp3', 
+  '@5491168352204|@50231458537': 'https://l.top4top.io/m_2492i4mdu1.mp3'
 }
