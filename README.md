@@ -64,7 +64,7 @@ Multi-idioma para cada usuario, lo que significa que el usuario puede elegir el 
 
 ```sh
 $ pkg upgrade -y && pkg update -y
-
+```sh
 $ pkg install git -y
 
 $ pkg install nodejs -y
