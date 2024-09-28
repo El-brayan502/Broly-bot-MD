@@ -64,9 +64,13 @@ Multi-idioma para cada usuario, lo que significa que el usuario puede elegir el 
 
 ```sh
 $ pkg upgrade -y && pkg update -y
+```
 $ pkg install git -y
+```
 $ pkg install nodejs -y
+```
 $ pkg install ffmpeg -y
+```
 $ pkg install imagemagick -y
 $ git clone https://github.com/El-brayan502/Broly-bot-MD
 $ cd Broly-bot-MD
