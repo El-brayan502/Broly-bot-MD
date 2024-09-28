@@ -68,19 +68,25 @@ $ pkg upgrade -y && pkg update -y
 ```sh
 $ pkg install git -y
 ```
-
+```sh
 $ pkg install nodejs -y
-
+```
+```sh
 $ pkg install ffmpeg -y
-
+```
+```sh
 $ pkg install imagemagick -y
-
+```
+```sh
 $ git clone https://github.com/El-brayan502/Broly-bot-MD
-
+```
+```sh
 $ cd Broly-bot-MD
-
+```
+```sh
 $ npm i 
-
+```
+```sh
 $ npm start
 ```
 2. Esperar a que se inicie el bot...
