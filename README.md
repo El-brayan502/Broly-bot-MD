@@ -61,6 +61,7 @@ Multi-idioma para cada usuario, lo que significa que el usuario puede elegir el 
 
 
 <a href="https://github.com/El-brayan502"><img src="http://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=B1F733&width=435&lines=instalación-por;termux-y-por-host.+%E2%9A%A1" height="90px"></a> 
+
 ```sh
 $ pkg upgrade -y && pkg update -y
 $ pkg install git -y
