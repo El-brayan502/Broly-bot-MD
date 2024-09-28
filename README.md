@@ -78,7 +78,7 @@ $ git clone https://github.com/El-brayan502/Broly-bot-MD
 $ cd Broly-bot-MD
 
 $ npm i 
-```
+
 $ npm start
 ```
 2. Esperar a que se inicie el bot...
