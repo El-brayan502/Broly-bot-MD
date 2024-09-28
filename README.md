@@ -63,31 +63,31 @@ Multi-idioma para cada usuario, lo que significa que el usuario puede elegir el 
 <a href="https://github.com/El-brayan502"><img src="http://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=B1F733&width=435&lines=instalación-por;termux-y-por-host.+%E2%9A%A1" height="90px"></a> 
 
 ```sh
-$ pkg upgrade -y && pkg update -y
+ pkg upgrade -y && pkg update -y
 ```
 ```sh
-$ pkg install git -y
+ pkg install git -y
 ```
 ```sh
-$ pkg install nodejs -y
+ pkg install nodejs -y
 ```
 ```sh
-$ pkg install ffmpeg -y
+ pkg install ffmpeg -y
 ```
 ```sh
-$ pkg install imagemagick -y
+ pkg install imagemagick -y
 ```
 ```sh
-$ git clone https://github.com/El-brayan502/Broly-bot-MD
+ git clone https://github.com/El-brayan502/Broly-bot-MD
 ```
 ```sh
-$ cd Broly-bot-MD
+ cd Broly-bot-MD
 ```
 ```sh
-$ npm i 
+ npm i 
 ```
 ```sh
-$ npm start
+ npm start
 ```
 2. Esperar a que se inicie el bot...
 3. Escanea el código QR desde el segundo dispositivo. (ir a whatsapp > Dispositivos Vinculados > Vincular un dispositivo)
