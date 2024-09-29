@@ -22,7 +22,6 @@ let m2 = `
 ┃╰──────────────
 ╰━━━━━━━━━━━━━━◉
 `
-m.react('🍂')
     let pp = 'https://qu.ax/cBzx.jpg' 
     /*conn.sendButton(m.chat, m2, mssg.ig, pp, [
       ['⏍ Info', `${usedPrefix}botinfo`],
